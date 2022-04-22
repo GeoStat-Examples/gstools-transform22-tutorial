@@ -1,0 +1,17 @@
+name: t22-gstools
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - nodejs
+  - jupyterlab
+  - ipywidgets
+  - pyvista
+  - ipyvtklink
+  - matplotlib
+  - ipympl
+  - gstools
+  - pykrige
+  - meshzoo
+  - cartopy
