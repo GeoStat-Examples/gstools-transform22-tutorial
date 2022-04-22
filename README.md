@@ -17,6 +17,15 @@
 <a href="mailto:info@geostat-framework.org"><img src="https://img.shields.io/badge/Email-GeoStat--Framework-468a88?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cGF0aCBkPSJNNDQ4IDg4SDUyYy0yNyAwLTQ5IDIyLTQ5IDQ5djIyNmMwIDI3IDIyIDQ5IDQ5IDQ5aDM5NmMyNyAwIDQ5LTIyIDQ5LTQ5VjEzN2MwLTI3LTIyLTQ5LTQ5LTQ5em0xNiA0OXYyMjZsLTIgNy0xMTUtMTE2IDExNy0xMTd6TTM2IDM2M1YxMzdsMTE3IDExN0wzOCAzNzBsLTItN3ptMjE5LTYzYy0zIDMtNyAzLTEwIDBMNjYgMTIxaDM2OHptLTc5LTIzIDQ2IDQ2YTM5IDM5IDAgMCAwIDU2IDBsNDYtNDYgMTAxIDEwMkg3NXoiIHN0eWxlPSJmaWxsOiNmNWY1ZjU7ZmlsbC1vcGFjaXR5OjEiLz48L3N2Zz4=" alt="Email"/></a>
 </p>
 
+<p align="center"><b>Youtube Livestream</b><br></p>
+
+<p align="center">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=qZBJ-AZXq6Q" target="_blank">
+<img src="http://img.youtube.com/vi/qZBJ-AZXq6Q/0.jpg" alt="GSTools Transform22 tutorial" width="480" height="360" border="10" />
+</a>
+</p>
+
+
 ## Purpose
 
 <img align="right" width="450" src="https://raw.githubusercontent.com/GeoStat-Framework/GSTools/main/docs/source/pics/demonstrator.png" alt="">
@@ -34,7 +43,7 @@ GeoStatTools provides geostatistical tools for various purposes:
 
 ## Installation
 
-We assume, that you already have conda set up and running.
+We assume, that you already have conda set up and running. Please clone or [download](https://github.com/GeoStat-Examples/gstools-transform22-tutorial/archive/refs/heads/main.zip) this repository to get started.
 
 ### conda environment
 
@@ -44,6 +53,9 @@ Just create and activate it with:
     conda env create --file=environment.yml
     conda activate t22-gstools
 
+Then you can start Jupyter-Lab in this environment
+
+    jupyter-lab
 
 ## Citation
 
