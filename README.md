@@ -46,6 +46,18 @@ GeoStatTools provides geostatistical tools for various purposes:
 
 We assume, that you already have conda set up and running. Please clone or [download](https://github.com/GeoStat-Examples/gstools-transform22-tutorial/archive/refs/heads/main.zip) this repository to get started.
 
+### Installation of conda
+
+On Windows, the easiest way to get `conda` is to install Anaconda with the provided installer from this [link](https://www.anaconda.com/products/distribution).
+Then open the provided command promt to proceed.
+
+On Unix systems like MacOS or Linux, you can install `conda` with the following terminal commands:
+```bash
+curl -L -O https://repo.anaconda.com/miniconda/Miniconda3-latest-$(uname)-$(uname -m).sh
+bash Miniconda3-latest-$(uname)-$(uname -m).sh  # init conda: yes ; restart shell
+conda config --set auto_activate_base false     # otherwise conda is always active
+```
+
 ### conda environment
 
 We provide a conda environment with all needed dependencies for this tutorial.
